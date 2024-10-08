@@ -1,8 +1,29 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    {{ include ('core/navbar.html.twig') }}
+    {{ include('core/navbar.html.twig') }}
 
+    <section class="section1">
+        <h2>Symfony E-Commerce Demo</h2>
+    </section>
 
+    <section class="section2">
+        <h2 class="text-center fw-bold">E-commerce</h2>
+        <p class="text-center fw-bolder">
+            Welcome to our e-commerce platform, where we offer a seamless shopping experience
+            with a wide selection of high-quality products, unbeatable prices, and exceptional customer service.
+        </p>
+        <div class="text-center">
+            <a href="#" class="btn btn-outline-info">Shop Now</a>
+        </div>
+    </section>
 
-{% endblock%}
+    <section class="section3">
+        <h2 class="text-center fw-bold">Why Choose Us?</h2>
+        <p class="text-center fw-bolder">
+            Our platform is designed to provide you with convenience, variety, and outstanding service.
+            Enjoy exclusive deals, secure payments, and fast delivery.
+        </p>
+    </section>
+
+{% endblock %}
