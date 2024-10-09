@@ -23,3 +23,4 @@
 
 1. Clone the repository:
    ```bash
+   https://github.com/Grodelek/E-Commerce-Symfony.git
